@@ -2,15 +2,12 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 
-gem 'bootstrap-sass'
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development, :test do
-  gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails', '2.11.0'
-end
+
+gem 'sqlite3', '1.3.5'
+
 
 
 # Gems used only for assets and not required
@@ -24,6 +21,8 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'bootstrap-sass', '~> 2.1.0.1'
 
 gem 'jquery-rails'
 
